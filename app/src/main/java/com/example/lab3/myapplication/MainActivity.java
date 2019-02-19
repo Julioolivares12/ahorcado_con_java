@@ -56,25 +56,30 @@ public class MainActivity extends AppCompatActivity {
                         case "E":
                             edtE.setText("E");
                             edtletra.setText("");
+                            aciertos +=1;
                             break;
                         case "T":
                             edtT.setText("T");
                             edtletra.setText("");
+                            aciertos +=1;
                             break;
                         case "P":
                             edtP.setText("P");
                             edtletra.setText("");
+                            aciertos +=1;
                             break;
                         case "S":
                             edtS.setText("S");
                             edtletra.setText("");
+                            aciertos +=1;
                             break;
                         case "1":
                             edt1.setText("1");
                             edtletra.setText("");
+                            aciertos +=1;
                             break;
                     }
-                    aciertos +=1;
+
                 }
                 else {
                     cantFallos +=1;
